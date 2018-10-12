@@ -8,34 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		49971C5C2170743400864B76 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971C5B2170743400864B76 /* Alamofire.framework */; };
+		49971C5F21707CC000864B76 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971C5E21707CC000864B76 /* SwiftyJSON.framework */; };
 		6B284C34215F546A00DA7A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B284C33215F546A00DA7A07 /* AppDelegate.swift */; };
 		6B284C36215F546A00DA7A07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B284C35215F546A00DA7A07 /* ViewController.swift */; };
 		6B284C39215F546A00DA7A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B284C37215F546A00DA7A07 /* Main.storyboard */; };
 		6B284C3B215F546B00DA7A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B284C3A215F546B00DA7A07 /* Assets.xcassets */; };
 		6B284C3E215F546B00DA7A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B284C3C215F546B00DA7A07 /* LaunchScreen.storyboard */; };
-		6B284C49215F546B00DA7A07 /* ZnjfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B284C48215F546B00DA7A07 /* ZnjfTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6B284C45215F546B00DA7A07 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B284C28215F546A00DA7A07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B284C2F215F546A00DA7A07;
-			remoteInfo = Znjf;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		49971C5B2170743400864B76 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		6B284C30215F546A00DA7A07 /* Znjf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Znjf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49971C5E21707CC000864B76 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		6B284C30215F546A00DA7A07 /* 中南金服.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "中南金服.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B284C33215F546A00DA7A07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B284C35215F546A00DA7A07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B284C38215F546A00DA7A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B284C3A215F546B00DA7A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B284C3D215F546B00DA7A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B284C3F215F546B00DA7A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B284C44215F546B00DA7A07 /* ZnjfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZnjfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B284C48215F546B00DA7A07 /* ZnjfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZnjfTests.swift; sourceTree = "<group>"; };
 		6B284C4A215F546B00DA7A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,14 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49971C5F21707CC000864B76 /* SwiftyJSON.framework in Frameworks */,
 				49971C5C2170743400864B76 /* Alamofire.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B284C41215F546B00DA7A07 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +46,7 @@
 		49971C5A2170743400864B76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49971C5E21707CC000864B76 /* SwiftyJSON.framework */,
 				49971C5B2170743400864B76 /* Alamofire.framework */,
 			);
 			name = Frameworks;
@@ -80,8 +65,7 @@
 		6B284C31215F546A00DA7A07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B284C30215F546A00DA7A07 /* Znjf.app */,
-				6B284C44215F546B00DA7A07 /* ZnjfTests.xctest */,
+				6B284C30215F546A00DA7A07 /* 中南金服.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,26 +110,8 @@
 			);
 			name = Znjf;
 			productName = Znjf;
-			productReference = 6B284C30215F546A00DA7A07 /* Znjf.app */;
+			productReference = 6B284C30215F546A00DA7A07 /* 中南金服.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6B284C43215F546B00DA7A07 /* ZnjfTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6B284C50215F546B00DA7A07 /* Build configuration list for PBXNativeTarget "ZnjfTests" */;
-			buildPhases = (
-				6B284C40215F546B00DA7A07 /* Sources */,
-				6B284C41215F546B00DA7A07 /* Frameworks */,
-				6B284C42215F546B00DA7A07 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6B284C46215F546B00DA7A07 /* PBXTargetDependency */,
-			);
-			name = ZnjfTests;
-			productName = ZnjfTests;
-			productReference = 6B284C44215F546B00DA7A07 /* ZnjfTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -159,10 +125,6 @@
 				TargetAttributes = {
 					6B284C2F215F546A00DA7A07 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					6B284C43215F546B00DA7A07 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 6B284C2F215F546A00DA7A07;
 					};
 				};
 			};
@@ -180,7 +142,6 @@
 			projectRoot = "";
 			targets = (
 				6B284C2F215F546A00DA7A07 /* Znjf */,
-				6B284C43215F546B00DA7A07 /* ZnjfTests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,13 +157,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B284C42215F546B00DA7A07 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -215,6 +169,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
 			outputFileListPaths = (
 			);
@@ -236,23 +191,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B284C40215F546B00DA7A07 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B284C49215F546B00DA7A07 /* ZnjfTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6B284C46215F546B00DA7A07 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6B284C2F215F546A00DA7A07 /* Znjf */;
-			targetProxy = 6B284C45215F546B00DA7A07 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6B284C37215F546A00DA7A07 /* Main.storyboard */ = {
@@ -404,8 +343,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tziba.Znjf;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tziba.tzb;
+				PRODUCT_NAME = "中南金服";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -427,52 +366,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tziba.Znjf;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tziba.tzb;
+				PRODUCT_NAME = "中南金服";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		6B284C51215F546B00DA7A07 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PB6D5P78D4;
-				INFOPLIST_FILE = ZnjfTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tziba.ZnjfTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Znjf.app/Znjf";
-			};
-			name = Debug;
-		};
-		6B284C52215F546B00DA7A07 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PB6D5P78D4;
-				INFOPLIST_FILE = ZnjfTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tziba.ZnjfTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Znjf.app/Znjf";
 			};
 			name = Release;
 		};
@@ -493,15 +390,6 @@
 			buildConfigurations = (
 				6B284C4E215F546B00DA7A07 /* Debug */,
 				6B284C4F215F546B00DA7A07 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6B284C50215F546B00DA7A07 /* Build configuration list for PBXNativeTarget "ZnjfTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B284C51215F546B00DA7A07 /* Debug */,
-				6B284C52215F546B00DA7A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

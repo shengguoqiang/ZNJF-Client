@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
@@ -16,6 +17,7 @@ class ViewController: UIViewController {
         print("HELLO WORLD!")
         Alamofire.request("http://localhost:8080/znjf-app/service/isTzbUser?mobile=18808181234").responseJSON { (response) in
             print("####json=\(response.result.value!)")
+            print("****swifty-json=\(JSON(response.result.value!))")
         }
         
     }
