@@ -7,26 +7,48 @@
 //
 
 import UIKit
-import Alamofire
-import SwiftyJSON
 
 class ViewController: UIViewController {
+    
+    let mobile = "18808181237"
+    let password = "123abc"
+    var vercode = "211764"
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("HELLO WORLD!")
-        Alamofire.request("http://localhost:8080/znjf-app/service/isTzbUser?mobile=18808181234").responseJSON { (response) in
-            print("####json=\(response.result.value!)")
-            print("****swifty-json=\(JSON(response.result.value!))")
+       
+    }
+    
+    @IBAction func verCode(_ sender: Any) {
+        ZNJFNetworkManager.sharedInstance.requestForData(funcName: "verfication", param: ["mobile": mobile, "type": "1"], success: { (response) in
+            print("请求成功：{response: \(response)}")
+        }) { (code, message) in
+            print("请求失败：{code: \(code), msg: \(message)}")
         }
-        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func register(_ sender: Any) {
+        ZNJFNetworkManager.sharedInstance.requestForData(funcName: "regedit", param: ["mobile": mobile, "password": password, "verCode": vercode], success: { (response) in
+            print("请求成功：{response: \(response)}")
+        }) { (code, message) in
+            print("请求失败：{code: \(code), msg: \(message)}")
+        }
     }
-
-
+    
+    @IBAction func login(_ sender: Any) {
+        ZNJFNetworkManager.sharedInstance.requestForData(funcName: "login", param: ["username": mobile, "password": password], success: { (response) in
+            print("请求成功：{response: \(response)}")
+        }) { (code, message) in
+            print("请求失败：{code: \(code), msg: \(message)}")
+        }
+    }
+    
+    @IBAction func output(_ sender: Any) {
+        ZNJFNetworkManager.sharedInstance.requestForData(funcName: "homePage", param: nil, success: { (response) in
+            print("请求成功：{response: \(response)}")
+        }) { (code, message) in
+            print("请求失败：{code: \(code), msg: \(message)}")
+        }
+    }
 }
 

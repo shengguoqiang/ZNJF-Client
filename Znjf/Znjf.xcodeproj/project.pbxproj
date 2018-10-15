@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		49971C5C2170743400864B76 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971C5B2170743400864B76 /* Alamofire.framework */; };
 		49971C5F21707CC000864B76 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971C5E21707CC000864B76 /* SwiftyJSON.framework */; };
+		49D6E67F217423FD004CE3AD /* ZNJFNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D6E67E217423FD004CE3AD /* ZNJFNetworkManager.swift */; };
 		6B284C34215F546A00DA7A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B284C33215F546A00DA7A07 /* AppDelegate.swift */; };
 		6B284C36215F546A00DA7A07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B284C35215F546A00DA7A07 /* ViewController.swift */; };
 		6B284C39215F546A00DA7A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B284C37215F546A00DA7A07 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		49971C5B2170743400864B76 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		49971C5E21707CC000864B76 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		49D6E67E217423FD004CE3AD /* ZNJFNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZNJFNetworkManager.swift; sourceTree = "<group>"; };
 		6B284C30215F546A00DA7A07 /* 中南金服.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "中南金服.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B284C33215F546A00DA7A07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B284C35215F546A00DA7A07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				6B284C3A215F546B00DA7A07 /* Assets.xcassets */,
 				6B284C3C215F546B00DA7A07 /* LaunchScreen.storyboard */,
 				6B284C3F215F546B00DA7A07 /* Info.plist */,
+				49D6E67E217423FD004CE3AD /* ZNJFNetworkManager.swift */,
 			);
 			path = Znjf;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			files = (
 				6B284C36215F546A00DA7A07 /* ViewController.swift in Sources */,
 				6B284C34215F546A00DA7A07 /* AppDelegate.swift in Sources */,
+				49D6E67F217423FD004CE3AD /* ZNJFNetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
