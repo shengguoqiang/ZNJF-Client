@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49938DDD21757C66006C5F08 /* ZNJFTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49938DDC21757C66006C5F08 /* ZNJFTabbarController.swift */; };
+		49938DDF21757C8B006C5F08 /* ZNJFNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49938DDE21757C8B006C5F08 /* ZNJFNavgationController.swift */; };
+		49938DE221757D5A006C5F08 /* ZNJFHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49938DE021757D5A006C5F08 /* ZNJFHomePageController.swift */; };
+		49938DE321757D5A006C5F08 /* ZNJFHomePageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49938DE121757D5A006C5F08 /* ZNJFHomePageController.xib */; };
+		49938DE52175854F006C5F08 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49938DE42175854F006C5F08 /* Kingfisher.framework */; };
+		49938DEC2175941B006C5F08 /* ZNJFWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49938DEA2175941A006C5F08 /* ZNJFWebViewController.xib */; };
+		49938DED2175941B006C5F08 /* ZNJFWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49938DEB2175941B006C5F08 /* ZNJFWebViewController.swift */; };
 		49971C5C2170743400864B76 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971C5B2170743400864B76 /* Alamofire.framework */; };
 		49971C5F21707CC000864B76 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49971C5E21707CC000864B76 /* SwiftyJSON.framework */; };
 		49D6E67F217423FD004CE3AD /* ZNJFNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D6E67E217423FD004CE3AD /* ZNJFNetworkManager.swift */; };
@@ -18,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49938DDC21757C66006C5F08 /* ZNJFTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZNJFTabbarController.swift; sourceTree = "<group>"; };
+		49938DDE21757C8B006C5F08 /* ZNJFNavgationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZNJFNavgationController.swift; sourceTree = "<group>"; };
+		49938DE021757D5A006C5F08 /* ZNJFHomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZNJFHomePageController.swift; sourceTree = "<group>"; };
+		49938DE121757D5A006C5F08 /* ZNJFHomePageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZNJFHomePageController.xib; sourceTree = "<group>"; };
+		49938DE42175854F006C5F08 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		49938DEA2175941A006C5F08 /* ZNJFWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNJFWebViewController.xib; sourceTree = "<group>"; };
+		49938DEB2175941B006C5F08 /* ZNJFWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNJFWebViewController.swift; sourceTree = "<group>"; };
 		49971C5B2170743400864B76 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		49971C5E21707CC000864B76 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		49D6E67E217423FD004CE3AD /* ZNJFNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZNJFNetworkManager.swift; sourceTree = "<group>"; };
@@ -37,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49938DE52175854F006C5F08 /* Kingfisher.framework in Frameworks */,
 				49971C5F21707CC000864B76 /* SwiftyJSON.framework in Frameworks */,
 				49971C5C2170743400864B76 /* Alamofire.framework in Frameworks */,
 			);
@@ -48,6 +63,7 @@
 		49971C5A2170743400864B76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49938DE42175854F006C5F08 /* Kingfisher.framework */,
 				49971C5E21707CC000864B76 /* SwiftyJSON.framework */,
 				49971C5B2170743400864B76 /* Alamofire.framework */,
 			);
@@ -75,6 +91,8 @@
 		6B284C32215F546A00DA7A07 /* Znjf */ = {
 			isa = PBXGroup;
 			children = (
+				49938DEB2175941B006C5F08 /* ZNJFWebViewController.swift */,
+				49938DEA2175941A006C5F08 /* ZNJFWebViewController.xib */,
 				6B284C33215F546A00DA7A07 /* AppDelegate.swift */,
 				6B284C35215F546A00DA7A07 /* ViewController.swift */,
 				6B284C37215F546A00DA7A07 /* Main.storyboard */,
@@ -82,6 +100,10 @@
 				6B284C3C215F546B00DA7A07 /* LaunchScreen.storyboard */,
 				6B284C3F215F546B00DA7A07 /* Info.plist */,
 				49D6E67E217423FD004CE3AD /* ZNJFNetworkManager.swift */,
+				49938DDC21757C66006C5F08 /* ZNJFTabbarController.swift */,
+				49938DDE21757C8B006C5F08 /* ZNJFNavgationController.swift */,
+				49938DE021757D5A006C5F08 /* ZNJFHomePageController.swift */,
+				49938DE121757D5A006C5F08 /* ZNJFHomePageController.xib */,
 			);
 			path = Znjf;
 			sourceTree = "<group>";
@@ -122,6 +144,7 @@
 		6B284C28215F546A00DA7A07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZNJF;
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "江苏投吧金融服务有限公司";
@@ -155,6 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B284C3E215F546B00DA7A07 /* LaunchScreen.storyboard in Resources */,
+				49938DEC2175941B006C5F08 /* ZNJFWebViewController.xib in Resources */,
+				49938DE321757D5A006C5F08 /* ZNJFHomePageController.xib in Resources */,
 				6B284C3B215F546B00DA7A07 /* Assets.xcassets in Resources */,
 				6B284C39215F546A00DA7A07 /* Main.storyboard in Resources */,
 			);
@@ -173,6 +198,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 			);
 			outputFileListPaths = (
 			);
@@ -190,7 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B284C36215F546A00DA7A07 /* ViewController.swift in Sources */,
+				49938DDD21757C66006C5F08 /* ZNJFTabbarController.swift in Sources */,
+				49938DDF21757C8B006C5F08 /* ZNJFNavgationController.swift in Sources */,
+				49938DE221757D5A006C5F08 /* ZNJFHomePageController.swift in Sources */,
 				6B284C34215F546A00DA7A07 /* AppDelegate.swift in Sources */,
+				49938DED2175941B006C5F08 /* ZNJFWebViewController.swift in Sources */,
 				49D6E67F217423FD004CE3AD /* ZNJFNetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,13 +14,13 @@ import SwiftyJSON
 typealias ZNJFNetworkSuccessBlock = (JSON)->Void
 typealias ZNJFNetworkFailureBlock = (Int, String)->Void
 
+//主URL
+let kBaseUrl = "http://192.168.0.124:8080/znjf-app/service/"
+
 class ZNJFNetworkManager: NSObject {
 
     //声明单例
     static let sharedInstance: ZNJFNetworkManager = ZNJFNetworkManager()
-    
-    //主URL
-    let kBaseUrl = "http://localhost:8080/znjf-app/service/"
     
     //声明公参
     let commonParam: Parameters = [
@@ -63,7 +63,7 @@ class ZNJFNetworkManager: NSObject {
             let result = JSON(response.result.value ?? "")
             switch response.result {
             case .success:
-                success(result)
+                success(result["data"])
             case .failure:
                 failure(result["code"].intValue, result["message"].stringValue)
             }
